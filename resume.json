@@ -7,12 +7,10 @@
     "label": "Automation Engineer",
     "image": "",
     "email": "zloeber@gmail.com",
-    "phone": "",
+    "phone": "630.730.1764",
     "url": "https://zacharyloeber.com",
     "summary": "Cloud Architect, DevOps Expert, and Infrastructure Engineer experienced in automating, securing, and supporting business-critical systems",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Madison",
       "countryCode": "US",
       "region": "Wisconsin"
@@ -39,7 +37,6 @@
     {
       "name": "SPR (Northwestern Mutual)",
       "position": "Senior Consultant, Vault and Identity Team",
-      "url": "",
       "startDate": "2021-01-01",
       "endDate": "Present",
       "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
@@ -65,7 +62,6 @@
     {
       "name": "SPR (HAVI)",
       "position": "Senior Consultant, DevOps & Cloud Team",
-      "url": "",
       "startDate": "2019-01-01",
       "endDate": "2021-03-01",
       "summary": "Devops engineer responsible for automating micro-services and cloud infrastructure deployments for the NextGen streaming engine.",
@@ -92,7 +88,6 @@
     {
       "name": "SPR (Nielsen)",
       "position": "Senior Consultant, DevOps & Cloud Team",
-      "url": "",
       "startDate": "2018-02-01",
       "endDate": "2019-01-01",
       "summary": "Design, implement, and support cloud based big data pipeline devops solutions. Automate and improve cloud deployments and workflows for financial and operational efficiency.",
@@ -113,7 +108,6 @@
     {
       "name": "ISACA",
       "position": "Senior Infrastructure and Cloud Manager (Promotion)",
-      "url": "",
       "startDate": "2016-10-01",
       "endDate": "2018-02-01",
       "summary": "Technical leader for the IT organization. Manager for infrastructure, security, and service desk teams. Lead, design and implement cloud-based solutions for Office 365, Azure, and SaaS integrations. Optimize IT in the organization for operational excellence.",
@@ -141,7 +135,6 @@
     {
       "name": "PSC Group",
       "position": "Senior Solutions Engineer",
-      "url": "",
       "startDate": "2013-12-01",
       "endDate": "2015-12-01",
       "summary": "Senior technical resource and advocate for Microsoft infrastructure technologies including Exchange, Lync, ADFS, Hyper-V, and Active Directory",
@@ -164,7 +157,6 @@
     {
       "name": "Dyson",
       "position": "Infrastructure Technical Engineer",
-      "url": "",
       "startDate": "2012-12-01",
       "endDate": "2013-12-01",
       "summary": "Perform in a lead technical role for the infrastructure design, troubleshooting, and deployment for all company offices in North America.",
@@ -173,7 +165,6 @@
     {
       "name": "Peters & Associates",
       "position": "Senior Consultant",
-      "url": "",
       "startDate": "2011-10-01",
       "endDate": "2012-12-01",
       "summary": "Act as technical expert for Cisco, VMware, Active Directory, Lync, and Exchange infrastructure issues, upgrades, and deployments. Assess current IT environments for performance, security, and best practices. Lead engineer in forklift upgrades of Cisco/Microsoft environments.",
@@ -182,7 +173,6 @@
     {
       "name": "Acxiom",
       "position": "System Engineer/Architect/Administrator",
-      "url": "",
       "startDate": "2011-05-01",
       "endDate": "2011-09-01",
       "summary": "Scope out, architect, and build Exchange 2010 infrastructures for Exchange 2003 migrations both internally and for multiple clients. Install, configure, and support Exchange 2003/2010, Lync 2010, OCS, TMG, and Compliance servers with high availability in mind. Provide level three support for organization as needed.",
@@ -191,7 +181,6 @@
     {
       "name": "Cision",
       "position": "Network Infrastructure/Security Analyst II",
-      "url": "",
       "startDate": "2008-10-01",
       "endDate": "2011-04-01",
       "summary": "Optimize, build, secure, and maintain the North America infrastructure and server environments. Ensure maximum uptime of all production systems and sites. Research, architect, and deploy new infrastructure environments to increase productivity and cohesiveness across all departments. Upgrade existing environments to add high availability and reduce downtime. Automate and organize internal business processes and systems monitoring to optimize infrastructure operations. Act as a lead technical expert for helpdesk and other IT departments as required.",
@@ -200,7 +189,6 @@
     {
       "name": "Kone Elevator",
       "position": "System Administrator",
-      "url": "",
       "startDate": "2008-04-01",
       "endDate": "2008-10-01",
       "summary": "Act as primary point of support for the local and international VIP corporate users of the company at a new main corporate headquarters.",
@@ -209,7 +197,6 @@
     {
       "name": "Healthcare Associates Credit Union",
       "position": "Sr. Network and System Administrator",
-      "url": "",
       "startDate": "2006-07-01",
       "endDate": "2008-04-01",
       "summary": "Upgrade, maintain, and monitor network infrastructure and company servers. Ensure maximum uptime of all systems and the reliability of end user workstations. Implement security software and practices to guard company assets.",
@@ -218,7 +205,6 @@
     {
       "name": "Adesso Solutions",
       "position": "Senior Technical Analyst",
-      "url": "",
       "startDate": "2005-07-01",
       "endDate": "2006-07-01",
       "summary": "Provided database and high-level technical support for both clients and internal staff. Assisted in the hand-holding and implementation of new clients to the Adesso hosted trade and asset management solution. Provided maintenance and support for the production-hosting environment.",
@@ -227,7 +213,6 @@
     {
       "name": "Thomson NETg",
       "position": "Tier 2 Network/Application Analyst",
-      "url": "",
       "startDate": "2004-07-01",
       "endDate": "2005-07-01",
       "summary": "Performed in a pivotal position to prevent further escalation to on site engineers for client critical issues. Assisted management and first level support with advanced technical issues.",
@@ -236,7 +221,6 @@
     {
       "name": "Visibillity",
       "position": "Product Support Specialist",
-      "url": "",
       "startDate": "2003-06-01",
       "endDate": "2004-07-01",
       "summary": "Provided phone and e-mail support for a collaborative and interactive online system for more than 1000 law firms and several insurance companies.",
@@ -245,7 +229,6 @@
     {
       "name": "Robert Half Technology",
       "position": "Tier 1 Technical Analyst",
-      "url": "",
       "startDate": "2002-07-01",
       "endDate": "2003-06-01",
       "summary": "Provided phone and e-mail support for over 12 unique computer learning products including, but not limited to, java-based Internet browser playable courses. Supported over 600 unique businesses and universities.",
@@ -254,7 +237,6 @@
     {
       "name": "OnIT Consulting",
       "position": "Senior Lab Coordinator",
-      "url": "",
       "startDate": "2000-12-01",
       "endDate": "2002-04-01",
       "summary": "Managed the operation and system administration of technical training facilities within three cities. Designed and instructed A+, Network+, and MCSE 2000 courses. Provided network support for remote clients of the company engineering department.",
@@ -263,7 +245,6 @@
     {
       "name": "Xerox Business Services",
       "position": "Account Support Representative/Programmer",
-      "url": "",
       "startDate": "1999-12-01",
       "endDate": "2000-12-01",
       "summary": "Learn and support the roles of employees at all remote sites to fulfill customer SLAs when filling in for staff when they are absent from work. Program C++ solutions to meet client needs.",
@@ -285,10 +266,9 @@
   "awards": [],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "MCSE NT 4.0",
+      "date": "2000-01-01",
+      "issuer": "Microsoft"
     }
   ],
   "publications": [],
@@ -409,26 +389,17 @@
   "projects": [
     {
       "name": "Public PowerShell Collection",
-      "startDate": "",
-      "endDate": "",
       "description": "A large collection of PowerShell scripts and modules for public use. This collection is used by quite a few people it seems.",
-      "highlights": [],
       "url": "https://github.com/zloeber/Powershell"
     },
     {
       "name": "PSAD Module",
-      "startDate": "",
-      "endDate": "",
       "description": "PowerShell AD Module for managing Active Directory via ADSI",
-      "highlights": [],
       "url": "https://github.com/zloeber/PSAD"
     },
     {
       "name": "Taskfiles",
-      "startDate": "",
-      "endDate": "",
       "description": "Taskfiles for various IT projects and categories.",
-      "highlights": [],
       "url": "https://github.com/zloeber/taskfiles"
     }
   ]
