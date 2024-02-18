@@ -1,0 +1,437 @@
+{
+  "basics": {
+    "name": "Zachary Loeber",
+    "label": "Automation Engineer",
+    "image": "",
+    "email": "zloeber@gmail.com",
+    "phone": "",
+    "url": "https://zacharyloeber.com",
+    "summary": "Cloud Architect, DevOps Expert, and Infrastructure Engineer experienced in automating, securing, and supporting business-critical systems",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Madison",
+      "countryCode": "US",
+      "region": "Wisconsin"
+    }
+  },
+  "profiles": [
+    {
+      "network": "X",
+      "username": "zloeber",
+      "url": "https://twitter.com/zloeber"
+    },
+    {
+      "network": "Facebook",
+      "username": "john",
+      "url": "https://facebook.com/zloeber"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "zloeber",
+      "url": "https://linkedin.com/in/zloeber"
+    },
+    {
+      "network": "GitHub",
+      "username": "zloeber",
+      "url": "https://github.com/zloeber"
+    }
+  ],
+  "work": [
+    {
+      "name": "SPR (Northwestern Mutual)",
+      "position": "Senior Consultant, Vault and Identity Team",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "Present",
+      "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
+      "highlights": [
+        "Spearheaded unified Vault platform as a service using an innovative “Vault Unified Manifest” configuration as code based GitOps pipeline delivery architecture. This solution provides a centrally managed project for teams to easily deploy complex Vault requirements across 4 environments each containing several purpose driven provisioning pipelines. This versatile manifest consolidates up to 32 different touch points for developers into a single merge request driven system that services hundreds of teams and automatically generates then provisions thousands of terraform manifests.",
+        "Authored custom Python application required to process Vault unified manifests and transform them into required terraform manifests using Jinja templates, multi-processing, click, and more.",
+        "Authored multiple Vault and AWS terraform modules for the Vault infrastructure and configuration as code pipelines.",
+        "Introduced CI/CD pipelines for existing terraform modules to automatically lint, document, and publish new versions for use in the organization.",
+        "Designed and implemented DynamoDB NoSQL schema for Vault state management used in API integrations with the platform.",
+        "Programmed, automated, and delivered a Kubernetes deployed FastAPI (Python) application with several dozen endpoints using schema driven development, OpenAPI, and DynamoDB (including all relevant CI/CD pipelines and Docker images)",
+        "Collaborated with teams to architect automated integrations for Vault + Kubernetes + CSI driver used in several dozen on-premise and cloud based Kubernetes clusters via customized Helm charts and terraform pipelines.",
+        "Worked on the design and delivery of secrets as a service via HashiCorp Vault in the organization including; Key/Value, AppRole, PKI, AWS, Azure AD, Gitlab, EC2 SSH, and Aurora database integrations.",
+        "Authored Gitlab pipelines for Python, NodeJS, Terraform, Golang, Docker images, and Powershell modules.",
+        "Worked with team to create PowerShell modules, supporting scripts, and CICD pipelines to unify the processing of inbound self service requests for Cyberark vaulted Active Directory based generic IDs.",
+        "Authored Python application to centralize Slack notifications behind all Cyberark self service automation workflows.",
+        "Authored first ServiceNow API integrated automation tasks for the identity team via a custom Python application that automates the daily application id integration synchronization process with on premise Domino database.",
+        "Revamped the ReactJS application used for CyberArk self-service automation forms and added CI/CD pipelines to automate the build and delivery of the forms as a Gitlab identity integrated web application.",
+        "Create and deliver working infrastructure as code via AWS CDK in Python, TypeScript, and Powershell to document and further support the AWS Vault Lambda extension integration",
+        "AWS EC2 Vault Role integration with Vault for secrets for both Windows and Linux via automated Vault Agent service installations and dynamic configuration file generation.",
+        "Redesign support portal to deliver a platform agnostic path of choices for the privilege access management team."
+      ]
+    },
+    {
+      "name": "SPR (HAVI)",
+      "position": "Senior Consultant, DevOps & Cloud Team",
+      "url": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-03-01",
+      "summary": "Devops engineer responsible for automating micro-services and cloud infrastructure deployments for the NextGen streaming engine.",
+      "highlights": [
+        "Authored Terraform code to accommodate 7 different environments across 4 teams with varied requirements including; AKS multi-nodepool clusters, container registries, webapps, Azure networking, storage and more.",
+        "Evaluated, absorbed, modified, or custom crafted dozens of helm charts to form several pillar technologies that comprised the foundation of the project engine. This includes; Elasticsearch/FluentBit/Kibana, Prometheus/Gafana/AlertManager, Confluent Kafka, Cassandra, Cert-manager, ingress, and more.",
+        "Fortified existing pipelines by converting all classic release pipelines into pipeline as code and centralizing into version control.",
+        "Rewrote Python deployment code for submitting Spark streaming jobs to Kubernetes to include logging, dry run, local launch scripts, a Makefile, and a requirements file.",
+        "Constructed end to end CI/CD pipeline as code libraries in Azure Devops for new and existing project repositories.",
+        "Administered Azure Devops project's pipelines, service connections, variable groups, and repositories.",
+        "Created and added branch policies and PR code review gates to align with the development team’s chosen git branch methodology.",
+        "Provided Azure support across multiple tenants for access, security, and resource deployments.",
+        "Constructed a reusable project helm chart for use across several micro-service Kubernetes deployment pipelines.",
+        "Updated all existing pipelines to source secrets from Azure Key Vault instead of plain text environment variables.",
+        "Saved costs by eliminating several unused or unrealized PaaS and IaaS services and implementing services directly on Kubernetes",
+        "Introduced per team Kubernetes clusters for deployments to eliminate reduce resource contention issues.",
+        "Designed and applied multiple workload targeting (aka: multi-tenancy) of Kubernetes deployments across all key services to allow for side-by-side fan-out deployment of workloads to multiple environments across the same clusters.",
+        "Acted as a technical escalation point and liaison for multiple offshore development teams.",
+        "Improved observability, security, and stability in the Nextgen engine by maintaining detailed workbooks, diagrams, and continually introducing various technologies such as; Weavscope, Polaris, Kured, several Prometheus exporters, Alertmanager, MS Teams integration, and more.",
+        "Introduced, configured, and deployed project critical technologies for horizontal pod autoscaling, nodepool workload steering, automatic keyvault secrets injection, and more.",
+        "Eliminated outside dependencies by creating Dockerfiles and pipelines for base container images used in most project critical components."
+      ]
+    },
+    {
+      "name": "SPR (Nielsen)",
+      "position": "Senior Consultant, DevOps & Cloud Team",
+      "url": "",
+      "startDate": "2018-02-01",
+      "endDate": "2019-01-01",
+      "summary": "Design, implement, and support cloud based big data pipeline devops solutions. Automate and improve cloud deployments and workflows for financial and operational efficiency.",
+      "highlights": [
+        "Scoped out, designed, and developed a Python solution for bridging and automating AWS elastic map reduce cluster deployments through Ansible Tower from an existing orchestration platform. Solution utilized jinja based email notifications, is entirely self-contained as a pip module, and vastly simplifies the process for several teams within the client organization.",
+        "Took over and optimized the deployment pipeline for Cloudera Hadoop cluster deployments to AWS by eliminating complexities and refactoring most of the custom Python deployment code.",
+        "Created a custom smoke test framework using bash and makefiles that reduced developer code deployment testing for spark jobs from 24 hours down to 90 minutes.",
+        "Designed and developed Python solution for monitoring AWS instances and alerting on threshold limitations set on a per-environment/per-team basis.",
+        "Optimized and automated the container image build process for a legacy Python/Cython application.",
+        "Led multiple teams in mapping out and moving forward with CI/CD strategies for their applications.",
+        "Analyzed existing cloud resource utilization for financial optimization opportunities and constructed strategies that saved upwards of 15k a month in average spend.",
+        "Constructed a self-updating Jenkins deployment using declarative pipeline code that builds containers to automate consistent artifact bundling from multiple dependent project sources.",
+        "Constructed and deployed Jenkins pipelines for Maven build workflows.",
+        "Automated bootstrap of local maven encrypted credentials both on Windows (with PowerShell) and on Linux/Mac (with makefiles and bash).",
+        "Automated Kubernetes cluster deployments to local workstations and AWS for automated micro-services application deployment testing."
+      ]
+    },
+    {
+      "name": "ISACA",
+      "position": "Senior Infrastructure and Cloud Manager (Promotion)",
+      "url": "",
+      "startDate": "2016-10-01",
+      "endDate": "2018-02-01",
+      "summary": "Technical leader for the IT organization. Manager for infrastructure, security, and service desk teams. Lead, design and implement cloud-based solutions for Office 365, Azure, and SaaS integrations. Optimize IT in the organization for operational excellence.",
+      "highlights": [
+        "Lead architect and technical implementation engineer for a data-center migration for all critical organization infrastructure into a collocation facility resulting in reduction of operational overhead from 7 down to 1 rack of equipment.",
+        "Deployed and configured Azure advanced threat analytic services, multi-factor authentication, and workspace join capabilities among other things.",
+        "Eliminated all 2003 servers by migrating or consolidating legacy services to new 2012 R2 servers or cloud based services.",
+        "Migrated key business SQL clusters to supported shared back-end SAN storage.",
+        "Implemented Jenkins for enterprise task scheduling and other scheduled automation tasks.",
+        "Automated ADP user profile sync with Active Directory, Office 365, and third-party SaaS providers.",
+        "Authored PowerShell scripts to integrate several external vendors with internal systems.",
+        "Designed and deployed entire test, QA, and Stage environments for a major web project initiative.",
+        "Spearheaded, planned, and delivered a cloud-based consolidated CDN solution for all online organization assets. The forward designed solution provides guaranteed DDOS protection, flexible web application firewall capability, eliminates network complexity, saves approximately 60K a year, and provides a framework for future cloud efforts.",
+        "Acted as a primary architect and engineer for infrastructure in the deployment of a major line of business cross premise e-commerce solution including isolated testing, staging, and production environments.",
+        "Migrated outdated and unsupported on-premise PBX to Office 365 Cloud PBX with Skype for Business Online.",
+        "Acted as a lead database administrator for business-critical SQL servers implementing backup and maintenance jobs, tightening security by roles, and enabling the database team to proactively monitor/manage systems with least privilege access.",
+        "Upgraded entire organization from Windows 7 and Office 2010 to Windows 10 and Office 2016.",
+        "Rapidly configured and brought online an office addition to facilitate an entirely new customer experience center.",
+        "Setup, tested, and made available BitLocker drive encryption for the organization's sensitive laptops.",
+        "Upgraded and rectified Veeam backups to an upgraded Dell EqualLogic storage array for backups.",
+        "Ran regular cross-training sessions to increase operational awareness and knowledge between different IT departments.",
+        "Provided leadership and mentoring to direct reports with transparent goals and regular open discussions to foster teamwork and collaborative spirit within the department."
+      ]
+    },
+    {
+      "name": "PSC Group",
+      "position": "Senior Solutions Engineer",
+      "url": "",
+      "startDate": "2013-12-01",
+      "endDate": "2015-12-01",
+      "summary": "Senior technical resource and advocate for Microsoft infrastructure technologies including Exchange, Lync, ADFS, Hyper-V, and Active Directory",
+      "highlights": [
+        "Assess, plan, design, and deploy Lync and Exchange 2013 through all phases of the project to replace existing aging telephony solutions.",
+        "Assess and resolve existing Lync federation and deployment issues.",
+        "Collaborate with AT&T and other PSTN providers to gather information required for Lync 2013 PBX replacement projects.",
+        "Configure and deploy Sonus/Audiocodes PSTN gateways with SIP trunk providers or PSTN providers for highly available Lync 2013 voice deployments.",
+        "Configure and deploy Audiocodes Mediant PSTN gateways with Lync SBA",
+        "Perform Active Directory, Lync, and Exchange health assessments to provide tangible reports and next step solutions for issue remediation.",
+        "Perform ADFS design and deployments for both hybrid cloud integration and for publishing content to federated external partners.",
+        "Assessed and resolved Hyper-V 2012 R2 farm and cluster issues to stabilize infrastructure for Lync 2013 voice deployment.",
+        "Provided direct impact to the business bottom line by bringing in new clients or solidifying relationships with new clients.",
+        "Led open forum technical presentations at company meetings detailing prior successful Lync deployments",
+        "Mentored new employees to the department to ease the on-boarding process and increase retention.",
+        "Provided a plethora of technical interviews for both my group and for clients as required.",
+        "Create PowerShell utilities, Excel checklists, and Word admin guide templates to assist in all phases of client engagements."
+      ]
+    },
+    {
+      "name": "Dyson",
+      "position": "Infrastructure Technical Engineer",
+      "url": "",
+      "startDate": "2012-12-01",
+      "endDate": "2013-12-01",
+      "summary": "Perform in a lead technical role for the infrastructure design, troubleshooting, and deployment for all company offices in North America.",
+      "highlights": []
+    },
+    {
+      "name": "Peters & Associates",
+      "position": "Senior Consultant",
+      "url": "",
+      "startDate": "2011-10-01",
+      "endDate": "2012-12-01",
+      "summary": "Act as technical expert for Cisco, VMware, Active Directory, Lync, and Exchange infrastructure issues, upgrades, and deployments. Assess current IT environments for performance, security, and best practices. Lead engineer in forklift upgrades of Cisco/Microsoft environments.",
+      "highlights": []
+    },
+    {
+      "name": "Acxiom",
+      "position": "System Engineer/Architect/Administrator",
+      "url": "",
+      "startDate": "2011-05-01",
+      "endDate": "2011-09-01",
+      "summary": "Scope out, architect, and build Exchange 2010 infrastructures for Exchange 2003 migrations both internally and for multiple clients. Install, configure, and support Exchange 2003/2010, Lync 2010, OCS, TMG, and Compliance servers with high availability in mind. Provide level three support for organization as needed.",
+      "highlights": []
+    },
+    {
+      "name": "Cision",
+      "position": "Network Infrastructure/Security Analyst II",
+      "url": "",
+      "startDate": "2008-10-01",
+      "endDate": "2011-04-01",
+      "summary": "Optimize, build, secure, and maintain the North America infrastructure and server environments. Ensure maximum uptime of all production systems and sites. Research, architect, and deploy new infrastructure environments to increase productivity and cohesiveness across all departments. Upgrade existing environments to add high availability and reduce downtime. Automate and organize internal business processes and systems monitoring to optimize infrastructure operations. Act as a lead technical expert for helpdesk and other IT departments as required.",
+      "highlights": []
+    },
+    {
+      "name": "Kone Elevator",
+      "position": "System Administrator",
+      "url": "",
+      "startDate": "2008-04-01",
+      "endDate": "2008-10-01",
+      "summary": "Act as primary point of support for the local and international VIP corporate users of the company at a new main corporate headquarters.",
+      "highlights": []
+    },
+    {
+      "name": "Healthcare Associates Credit Union",
+      "position": "Sr. Network and System Administrator",
+      "url": "",
+      "startDate": "2006-07-01",
+      "endDate": "2008-04-01",
+      "summary": "Upgrade, maintain, and monitor network infrastructure and company servers. Ensure maximum uptime of all systems and the reliability of end user workstations. Implement security software and practices to guard company assets.",
+      "highlights": []
+    },
+    {
+      "name": "Adesso Solutions",
+      "position": "Senior Technical Analyst",
+      "url": "",
+      "startDate": "2005-07-01",
+      "endDate": "2006-07-01",
+      "summary": "Provided database and high-level technical support for both clients and internal staff. Assisted in the hand-holding and implementation of new clients to the Adesso hosted trade and asset management solution. Provided maintenance and support for the production-hosting environment.",
+      "highlights": []
+    },
+    {
+      "name": "Thomson NETg",
+      "position": "Tier 2 Network/Application Analyst",
+      "url": "",
+      "startDate": "2004-07-01",
+      "endDate": "2005-07-01",
+      "summary": "Performed in a pivotal position to prevent further escalation to on site engineers for client critical issues. Assisted management and first level support with advanced technical issues.",
+      "highlights": []
+    },
+    {
+      "name": "Visibillity",
+      "position": "Product Support Specialist",
+      "url": "",
+      "startDate": "2003-06-01",
+      "endDate": "2004-07-01",
+      "summary": "Provided phone and e-mail support for a collaborative and interactive online system for more than 1000 law firms and several insurance companies.",
+      "highlights": []
+    },
+    {
+      "name": "Robert Half Technology",
+      "position": "Tier 1 Technical Analyst",
+      "url": "",
+      "startDate": "2002-07-01",
+      "endDate": "2003-06-01",
+      "summary": "Provided phone and e-mail support for over 12 unique computer learning products including, but not limited to, java-based Internet browser playable courses. Supported over 600 unique businesses and universities.",
+      "highlights": []
+    },
+    {
+      "name": "OnIT Consulting",
+      "position": "Senior Lab Coordinator",
+      "url": "",
+      "startDate": "2000-12-01",
+      "endDate": "2002-04-01",
+      "summary": "Managed the operation and system administration of technical training facilities within three cities. Designed and instructed A+, Network+, and MCSE 2000 courses. Provided network support for remote clients of the company engineering department.",
+      "highlights": []
+    },
+    {
+      "name": "Xerox Business Services",
+      "position": "Account Support Representative/Programmer",
+      "url": "",
+      "startDate": "1999-12-01",
+      "endDate": "2000-12-01",
+      "summary": "Learn and support the roles of employees at all remote sites to fulfill customer SLAs when filling in for staff when they are absent from work. Program C++ solutions to meet client needs.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "College of DuPage",
+      "url": "https://www.cod.edu/",
+      "area": "General Studies",
+      "studyType": "Associate",
+      "startDate": "2000-01-01",
+      "endDate": "2018-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Cloud Infrastructure",
+      "level": "Expert",
+      "keywords": [
+        "Azure",
+        "AWS",
+        "Terraform",
+        "Ansible",
+        "DynamoDB",
+        "EC2",
+        "Python",
+        "AKS",
+        "Docker",
+        "Azure Key Vault",
+        "boto3"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "Expert",
+      "keywords": [
+        "Azure Security",
+        "AWS Security",
+        "HashiCorp Vault",
+        "CyberArk"
+      ]
+    },
+    {
+      "name": "Software Development & Scripting",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "PowerShell",
+        "dotnet",
+        "JavaScript",
+        "NodeJS",
+        "Jinja",
+        "bash",
+        "Makefile"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": [
+        "CICD",
+        "GitHub",
+        "Azure Devops",
+        "Jenkins",
+        "GitLab",
+        "SemVer",
+        "git",
+        "Docker",
+        "workflow automation"
+      ]
+    },
+    {
+      "name": "Web & API Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "Express",
+        "FastAPI",
+        "OpenAPI"
+      ]
+    },
+    {
+      "name": "Automation",
+      "keywords": [
+        "Powershell",
+        "Python",
+        "Terraform",
+        "Ansible",
+        "Third Party API Integration",
+        "CI/CD Pipelines",
+        "GitOps"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI",
+      "keywords": ["CoPilot", "ChatGPT"]
+    },
+    {
+      "name": "Home Automation",
+      "keywords": ["Home Assistant", "k3s", "Frigate"]
+    },
+    {
+      "name": "Gaming",
+      "keywords": ["PC", "Steam", "roguelikes"]
+    },
+    {
+      "name": "Skill based toys",
+      "keywords": ["yo-yo", "juggling", "puzzles"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Provided",
+      "reference": "upon request"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Public PowerShell Collection",
+      "startDate": "",
+      "endDate": "",
+      "description": "A large collection of PowerShell scripts and modules for public use. This collection is used by quite a few people it seems.",
+      "highlights": [],
+      "url": "https://github.com/zloeber/Powershell"
+    },
+    {
+      "name": "PSAD Module",
+      "startDate": "",
+      "endDate": "",
+      "description": "PowerShell AD Module for managing Active Directory via ADSI",
+      "highlights": [],
+      "url": "https://github.com/zloeber/PSAD"
+    },
+    {
+      "name": "Taskfiles",
+      "startDate": "",
+      "endDate": "",
+      "description": "Taskfiles for various IT projects and categories.",
+      "highlights": [],
+      "url": "https://github.com/zloeber/taskfiles"
+    }
+  ]
+}
