@@ -15,30 +15,30 @@
       "countryCode": "US",
       "region": "Wisconsin"
     }
+
+    "profiles": [
+      {
+        "network": "twitter",
+        "username": "zloeber",
+        "url": "https://twitter.com/zloeber"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "zloeber",
+        "url": "https://linkedin.com/in/zloeber"
+      },
+      {
+        "network": "GitHub",
+        "username": "zloeber",
+        "url": "https://github.com/zloeber"
+      }
+    ]
   },
-  "profiles": [
-    {
-      "network": "twitter",
-      "username": "zloeber",
-      "url": "https://twitter.com/zloeber"
-    },
-    {
-      "network": "LinkedIn",
-      "username": "zloeber",
-      "url": "https://linkedin.com/in/zloeber"
-    },
-    {
-      "network": "GitHub",
-      "username": "zloeber",
-      "url": "https://github.com/zloeber"
-    }
-  ],
   "work": [
     {
       "name": "SPR (Northwestern Mutual)",
       "position": "Senior Consultant, Vault and Identity Team",
       "startDate": "2021-01-01",
-      "endDate": "Present",
       "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
       "highlights": [
         "Spearheaded unified Vault platform as a service using an innovative “Vault Unified Manifest” configuration as code based GitOps pipeline delivery architecture. This solution provides a centrally managed project for teams to easily deploy complex Vault requirements across 4 environments each containing several purpose driven provisioning pipelines. This versatile manifest consolidates up to 32 different touch points for developers into a single merge request driven system that services hundreds of teams and automatically generates then provisions thousands of terraform manifests.",
