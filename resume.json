@@ -20,14 +20,9 @@
   },
   "profiles": [
     {
-      "network": "X",
+      "network": "twitter",
       "username": "zloeber",
       "url": "https://twitter.com/zloeber"
-    },
-    {
-      "network": "Facebook",
-      "username": "john",
-      "url": "https://facebook.com/zloeber"
     },
     {
       "network": "LinkedIn",
