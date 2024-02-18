@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": "elegant"
+  },
   "basics": {
     "name": "Zachary Loeber",
     "label": "Automation Engineer",
