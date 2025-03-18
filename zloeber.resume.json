@@ -1,14 +1,15 @@
 {
   "meta": {
-    "theme": "kendall"
+    "theme": "kendal",
+    "version": "1.0.0"
   },
   "basics": {
     "name": "Zachary Loeber",
-    "label": "Automation Engineer",
+    "label": "Systems Engineer",
     "image": "https://avatars.githubusercontent.com/u/4702624",
     "email": "zloeber@gmail.com",
     "phone": "630.730.1764",
-    "url": "https://zacharyloeber.com",
+    "url": "https://blog.zacharyloeber.com",
     "summary": "Cloud Architect, DevOps Expert, and Infrastructure Engineer experienced in automating, securing, and supporting business-critical systems",
     "location": {
       "city": "Madison",
@@ -35,26 +36,39 @@
   },
   "work": [
     {
+      "name": "SPR",
+      "position": "Sr. Cloud Consultant, Delivery Team",
+      "startDate": "2018-02-01",
+      "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients. Act as a technical lead for the delivery team.",
+      "highlights": [
+        "Act as a technical lead for the delivery team.",
+        "Architect, automate, and support cloud infrastructure and DevOps solutions for clients.",
+        "Provide in depth technical interviews for hundreds of potential new hires.",
+        "Authored dozens of technical blog posts for the company blog."
+      ]
+    },
+    {
       "name": "SPR (Northwestern Mutual)",
-      "position": "Senior Consultant, Vault and Identity Team",
-      "startDate": "2021-01-01",
+      "position": "Sr. Automation Engineer, Privilege Access Management team",
+      "startDate": "2021-04-01",
+      "endDate": "2025-01-01",
       "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
       "highlights": [
-        "Spearheaded unified Vault platform as a service using an innovative “Vault Unified Manifest” configuration as code based GitOps pipeline delivery architecture. This solution provides a centrally managed project for teams to easily deploy complex Vault requirements across 4 environments each containing several purpose driven provisioning pipelines. This versatile manifest consolidates up to 32 different touch points for developers into a single merge request driven system that services hundreds of teams and automatically generates then provisions thousands of terraform manifests.",
-        "Authored custom Python application required to process Vault unified manifests and transform them into required terraform manifests using Jinja templates, multi-processing, click, and more.",
-        "Authored multiple Vault and AWS terraform modules for the Vault infrastructure and configuration as code pipelines.",
+        "Spearheaded unified Vault platform as a service using an innovative 'Vault Unified Manifest' configuration as code based GitOps pipeline delivery architecture. This solution provides a centrally managed project for teams to easily deploy complex Vault requirements across 4 environments each containing several purpose driven provisioning pipelines. This versatile manifest consolidates up to 32 different touch points for developers into a single merge request driven system that services hundreds of teams and automatically generates then provisions thousands of terraform manifests.",
+        "Developed multi-threaded Python application required to process Vault unified manifests and transform them into required terraform manifests using Jinja templates, jsonschema, click, and more.",
+        "Constructed multiple Vault and AWS terraform modules for the Vault infrastructure and configuration as code pipelines.",
         "Introduced CI/CD pipelines for existing terraform modules to automatically lint, document, and publish new versions for use in the organization.",
         "Designed and implemented DynamoDB NoSQL schema for Vault state management used in API integrations with the platform.",
-        "Programmed, automated, and delivered a Kubernetes deployed FastAPI (Python) application with several dozen endpoints using schema driven development, OpenAPI, and DynamoDB (including all relevant CI/CD pipelines and Docker images)",
+        "Programmed, automated, and delivered a containerized FastAPI REST API application with several dozen endpoints using schema driven development, OpenAPI, and DynamoDB (including all relevant CI/CD pipelines and Docker images)",
         "Collaborated with teams to architect automated integrations for Vault + Kubernetes + CSI driver used in several dozen on-premise and cloud based Kubernetes clusters via customized Helm charts and terraform pipelines.",
         "Worked on the design and delivery of secrets as a service via HashiCorp Vault in the organization including; Key/Value, AppRole, PKI, AWS, Azure AD, Gitlab, EC2 SSH, and Aurora database integrations.",
         "Authored Gitlab pipelines for Python, NodeJS, Terraform, Golang, Docker images, and Powershell modules.",
         "Worked with team to create PowerShell modules, supporting scripts, and CICD pipelines to unify the processing of inbound self service requests for Cyberark vaulted Active Directory based generic IDs.",
         "Authored Python application to centralize Slack notifications behind all Cyberark self service automation workflows.",
-        "Authored first ServiceNow API integrated automation tasks for the identity team via a custom Python application that automates the daily application id integration synchronization process with on premise Domino database.",
+        "Authored first ServiceNow API integrated automation tasks for the team via a custom Python application that automates the daily application id integration synchronization process with on premise Domino database.",
         "Revamped the ReactJS application used for CyberArk self-service automation forms and added CI/CD pipelines to automate the build and delivery of the forms as a Gitlab identity integrated web application.",
-        "Create and deliver working infrastructure as code via AWS CDK in Python, TypeScript, and Powershell to document and further support the AWS Vault Lambda extension integration",
-        "AWS EC2 Vault Role integration with Vault for secrets for both Windows and Linux via automated Vault Agent service installations and dynamic configuration file generation.",
+        "Created infrastructure as code examples in Python and TypeScript using AWS CDK to further support the AWS Vault Lambda extension integration",
+        "Developed AWS EC2 Vault Role integration with Vault for secrets for both Windows and Linux via automated Vault Agent service installations and dynamic configuration file generation.",
         "Redesign support portal to deliver a platform agnostic path of choices for the privilege access management team."
       ]
     },
@@ -63,7 +77,7 @@
       "position": "Senior Consultant, DevOps & Cloud Team",
       "startDate": "2019-01-01",
       "endDate": "2021-03-01",
-      "summary": "Devops engineer responsible for automating micro-services and cloud infrastructure deployments for the NextGen streaming engine.",
+      "summary": "Devops engineer responsible for automating micro-services and cloud infrastructure deployments for the NextGen Spark driven streaming engine.",
       "highlights": [
         "Authored Terraform code to accommodate 7 different environments across 4 teams with varied requirements including; AKS multi-nodepool clusters, container registries, webapps, Azure networking, storage and more.",
         "Evaluated, absorbed, modified, or custom crafted dozens of helm charts to form several pillar technologies that comprised the foundation of the project engine. This includes; Elasticsearch/FluentBit/Kibana, Prometheus/Gafana/AlertManager, Confluent Kafka, Cassandra, Cert-manager, ingress, and more.",

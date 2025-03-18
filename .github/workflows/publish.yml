@@ -22,7 +22,7 @@ jobs:
         name: Export resume as HTML
         with:
           theme: macchiato
-          resume_filepath: resume.json
+          resume_filepath: zloeber.resume.json
           # modifies the index.html in-place
           output_filepath: docs/index.html
       - name: Commit published HTML

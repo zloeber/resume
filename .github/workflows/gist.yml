@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-action
 name: Update Resume Gist
 
 on: push
@@ -14,4 +15,4 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           gist_id: 51d4f54536e437ef27bd2181b59c95d5
-          file_path: resume.json
+          file_path: zloeber.resume.json
