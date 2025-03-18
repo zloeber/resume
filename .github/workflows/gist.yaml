@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           gist_id: 51d4f54536e437ef27bd2181b59c95d5
-          file_path: zloeber.resume.json
+          file_path: resume.json
