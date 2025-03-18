@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://json.schemastore.org/github-action
 name: Update Resume Gist
 
 on: push
@@ -8,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.2.2
 
       - name: Update Resume Gist
-        uses: exuanbo/actions-deploy-gist@v1
+        uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
           token: ${{ secrets.TOKEN }}
           gist_id: 51d4f54536e437ef27bd2181b59c95d5

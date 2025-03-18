@@ -49,7 +49,7 @@
     },
     {
       "name": "SPR (Northwestern Mutual)",
-      "position": "Sr. Automation Engineer, Privilege Access Management team",
+      "position": "Platform Engineer, Privilege Access Management team",
       "startDate": "2021-04-01",
       "endDate": "2025-01-01",
       "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
@@ -105,7 +105,7 @@
       "endDate": "2019-01-01",
       "summary": "Design, implement, and support cloud based big data pipeline devops solutions. Automate and improve cloud deployments and workflows for financial and operational efficiency.",
       "highlights": [
-        "Scoped out, designed, and developed a Python solution for bridging and automating AWS elastic map reduce cluster deployments through Ansible Tower from an existing orchestration platform. Solution utilized jinja based email notifications, is entirely self-contained as a pip module, and vastly simplifies the process for several teams within the client organization.",
+        "Developed a Python solution for bridging and automating AWS elastic map reduce cluster deployments through Ansible Tower from an existing orchestration platform. Solution utilized jinja based email notifications, is entirely self-contained as a pip module, and vastly simplifies the process for several teams within the client organization.",
         "Took over and optimized the deployment pipeline for Cloudera Hadoop cluster deployments to AWS by eliminating complexities and refactoring most of the custom Python deployment code.",
         "Created a custom smoke test framework using bash and makefiles that reduced developer code deployment testing for spark jobs from 24 hours down to 90 minutes.",
         "Designed and developed Python solution for monitoring AWS instances and alerting on threshold limitations set on a per-environment/per-team basis.",
