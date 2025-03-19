@@ -36,7 +36,7 @@
   "work": [
     {
       "name": "SPR",
-      "position": "Sr. Cloud Consultant, Delivery Team",
+      "position": "Principal Cloud Consultant, Delivery Team",
       "startDate": "2018-02-01",
       "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients. Act as a technical lead for the delivery team.",
       "highlights": [
@@ -48,7 +48,7 @@
     },
     {
       "name": "SPR (Northwestern Mutual)",
-      "position": "Platform Engineer, Privilege Access Management team",
+      "position": "Principal Security Engineer, Privilege Access Management team",
       "startDate": "2021-04-01",
       "endDate": "2025-01-01",
       "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
