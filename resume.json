@@ -281,37 +281,92 @@
     {
       "name": "Certified AI Practitioner",
       "date": "2025-03-01",
-      "issuer": "AWS"
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/14230421-69a8-41b2-98f1-e538ee926379/public_url"
+    },
+    {
+      "name": "CCNA Routing and Switching",
+      "date": "2008-01-01",
+      "issuer": "Cisco",
+      "url": "https://www.credly.com/badges/82f377c6-d4b4-42e5-8ac4-7d4092d81d0c/public_url"
+    },
+    {
+      "name": "Certified Kubernetes Administrator",
+      "date": "2023-05-01",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/3793ece1-4fde-4d32-a1b6-5538e507581d/public_url"
+    },
+    {
+      "name": "Certified Cloud Practitioner",
+      "date": "2024-03-01",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/7a3c7a3c-0689-4d0e-8d4e-d5e4f8f8441b/public_url"
+    },
+    {
+      "name": "Vault Associate",
+      "date": "2023-09-01",
+      "issuer": "HashiCorp",
+      "url": "https://www.credly.com/badges/255e6ebe-b920-4f53-8698-a995228525d6/public_url"
+    },
+    {
+      "name": "Terraform Associate",
+      "date": "2020-05-06",
+      "issuer": "HashiCorp",
+      "url": "https://www.credly.com/badges/21434533-4064-44c7-85b3-e2b68827497c/public_url"
+    },
+    {
+      "name": "Certified Professional",
+      "date": "2014-05-09",
+      "issuer": "Microsoft",
+      "url": ""
+    },
+    {
+      "name": "Solutions Associate: Windows Server 2008",
+      "date": "2012-04-15",
+      "issuer": "Microsoft",
+      "url": ""
+    },
+    {
+      "name": "Gold MSDN and TechNet Galleries contributor",
+      "date": "2024-01-19",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/api/achievements/share/en-us/zloeber/ZP3L4TM2?sharingId=E718E81B956EDD5B"
     },
     {
       "name": "A+",
       "date": "2000-01-01",
-      "issuer": "CompTIA"
+      "issuer": "CompTIA",
+      "url": ""
     },
     {
       "name": "Network+",
       "date": "2000-01-01",
-      "issuer": "CompTIA"
+      "issuer": "CompTIA",
+      "url": ""
     },
     {
       "name": "I-Net+",
       "date": "2000-01-01",
-      "issuer": "CompTIA"
+      "issuer": "CompTIA",
+      "url": ""
     },
     {
       "name": "A+",
       "date": "2000-01-01",
-      "issuer": "CompTIA"
+      "issuer": "CompTIA",
+      "url": ""
     },
     {
       "name": "MCSE NT 4.0",
       "date": "2000-01-01",
-      "issuer": "Microsoft"
+      "issuer": "Microsoft",
+      "url": ""
     },
     {
       "name": "MCSE 2000",
       "date": "2001-01-01",
-      "issuer": "Microsoft"
+      "issuer": "Microsoft",
+      "url": ""
     }
   ],
   "publications": [],
