@@ -36,22 +36,23 @@
   "work": [
     {
       "name": "SPR",
-      "position": "Sr. Cloud Consultant, Delivery Team",
+      "position": "Principal Cloud Consultant, Delivery Team",
       "startDate": "2018-02-01",
       "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients.",
       "highlights": [
         "Act as a technical lead for the delivery team.",
+        "Thought leader for the team on cloud infrastructure and DevOps topics.",
         "Architect, automate, and support cloud infrastructure and DevOps solutions for clients.",
         "Provide in depth technical interviews for hundreds of potential new hires.",
-        "Authored dozens of technical blog posts for the company blog."
+        "Authored dozens of blogs for the ogranization."
       ]
     },
     {
       "name": "SPR (Northwestern Mutual)",
-      "position": "Platform Engineer, Privilege Access Management team",
+      "position": "Principal Security Engineer, Privilege Access Management team",
       "startDate": "2021-04-01",
       "endDate": "2025-01-01",
-      "summary": "Platform engineer responsible for automating the consumption of HashiCorp Vault as a service for development teams in the organization. Additionally automated identity and access management operational tasks and integrations. designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the authentication and secrets engines.",
+      "summary": "Design and deliver HashiCorp Vault platform as a service for internal development teams in the organization. Additionally automated identity and access management operational tasks and integrations. Designed and developed APIs to fulfill business requirements, and performed DevOps engineering for the privlege access management team.",
       "highlights": [
         "Spearheaded unified Vault platform as a service using an innovative 'Vault Unified Manifest' configuration as code based GitOps pipeline delivery architecture. This solution provides a centrally managed project for teams to easily deploy complex Vault requirements across 4 environments each containing several purpose driven provisioning pipelines. This versatile manifest consolidates up to 32 different touch points for developers into a single merge request driven system that services hundreds of teams and automatically generates then provisions thousands of terraform manifests.",
         "Developed multi-threaded Python application required to process Vault unified manifests and transform them into required terraform manifests using Jinja templates, jsonschema, click, and more.",
