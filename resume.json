@@ -317,14 +317,12 @@
     {
       "name": "Certified Professional",
       "date": "2014-05-09",
-      "issuer": "Microsoft",
-      "url": ""
+      "issuer": "Microsoft"
     },
     {
       "name": "Solutions Associate: Windows Server 2008",
       "date": "2012-04-15",
-      "issuer": "Microsoft",
-      "url": ""
+      "issuer": "Microsoft"
     },
     {
       "name": "Gold MSDN and TechNet Galleries contributor",
@@ -335,38 +333,32 @@
     {
       "name": "A+",
       "date": "2000-01-01",
-      "issuer": "CompTIA",
-      "url": ""
+      "issuer": "CompTIA"
     },
     {
       "name": "Network+",
       "date": "2000-01-01",
-      "issuer": "CompTIA",
-      "url": ""
+      "issuer": "CompTIA"
     },
     {
       "name": "I-Net+",
       "date": "2000-01-01",
-      "issuer": "CompTIA",
-      "url": ""
+      "issuer": "CompTIA"
     },
     {
       "name": "A+",
       "date": "2000-01-01",
-      "issuer": "CompTIA",
-      "url": ""
+      "issuer": "CompTIA"
     },
     {
       "name": "MCSE NT 4.0",
       "date": "2000-01-01",
-      "issuer": "Microsoft",
-      "url": ""
+      "issuer": "Microsoft"
     },
     {
       "name": "MCSE 2000",
       "date": "2001-01-01",
-      "issuer": "Microsoft",
-      "url": ""
+      "issuer": "Microsoft"
     }
   ],
   "publications": [],
