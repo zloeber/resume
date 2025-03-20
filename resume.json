@@ -38,7 +38,7 @@
       "name": "SPR",
       "position": "Sr. Cloud Consultant, Delivery Team",
       "startDate": "2018-02-01",
-      "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients. Act as a technical lead for the delivery team.",
+      "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients.",
       "highlights": [
         "Act as a technical lead for the delivery team.",
         "Architect, automate, and support cloud infrastructure and DevOps solutions for clients.",
@@ -278,8 +278,38 @@
   "awards": [],
   "certificates": [
     {
+      "name": "Certified AI Practitioner (AIF-C01)",
+      "date": "2025-03-01",
+      "issuer": "AWS"
+    },
+    {
+      "name": "A+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "N+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "I-Net+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "A+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
       "name": "MCSE NT 4.0",
       "date": "2000-01-01",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "MCSE 2000",
+      "date": "2001-01-01",
       "issuer": "Microsoft"
     }
   ],
@@ -350,8 +380,10 @@
         "JavaScript",
         "React",
         "NodeJS",
-        "Express",
+        "ExpressJS",
         "FastAPI",
+        "OpenAPI",
+        "Vite",
         "OpenAPI"
       ]
     },
