@@ -278,7 +278,7 @@
   "awards": [],
   "certificates": [
     {
-      "name": "Certified AI Practitioner (AIF-C01)",
+      "name": "Certified AI Practitioner",
       "date": "2025-03-01",
       "issuer": "AWS"
     },
@@ -288,7 +288,7 @@
       "issuer": "CompTIA"
     },
     {
-      "name": "N+",
+      "name": "Network+",
       "date": "2000-01-01",
       "issuer": "CompTIA"
     },
@@ -330,6 +330,20 @@
         "Docker",
         "Azure Key Vault",
         "boto3"
+      ]
+    },
+    {
+      "name": "Identity & Access Management",
+      "level": "Expert",
+      "keywords": [
+        "HashiCorp Vault",
+        "CyberArk",
+        "AWS IAM",
+        "Azure AD",
+        "AppRole",
+        "PKI",
+        "SSO",
+        "MFA"
       ]
     },
     {
@@ -417,7 +431,7 @@
     },
     {
       "name": "Gaming",
-      "keywords": ["PC", "Steam", "roguelikes"]
+      "keywords": ["PC", "Steam", "Rogue-likes"]
     },
     {
       "name": "Skill based toys",
