@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "kendall"
+    "theme": "elegant"
   },
   "basics": {
     "name": "Zachary Loeber",
@@ -319,6 +319,46 @@
       "date": "2024-01-19",
       "issuer": "Microsoft",
       "url": "https://learn.microsoft.com/api/achievements/share/en-us/zloeber/ZP3L4TM2?sharingId=E718E81B956EDD5B"
+    },
+    {
+      "name": "Certified Professional",
+      "date": "2014-05-09",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Solutions Associate: Windows Server 2008",
+      "date": "2012-04-15",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "A+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "Network+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "I-Net+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "A+",
+      "date": "2000-01-01",
+      "issuer": "CompTIA"
+    },
+    {
+      "name": "MCSE NT 4.0",
+      "date": "2000-01-01",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "MCSE 2000",
+      "date": "2001-01-01",
+      "issuer": "Microsoft"
     }
   ],
   "publications": [],
