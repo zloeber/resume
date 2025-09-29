@@ -61,10 +61,13 @@
         "Provided training and documentation to internal teams on AWS best practices and governance.",
         "Authored terraform modules and shared GitLab CICD component libraries to support the organization's cloud infrastructure as code strategy.",
         "Created GitOps approach for managing AWS account access and permissions using AWS SSO and IAM Identity Center.",
+        "Developed several Python scripts to generate AWS documentation for internal teams.",
         "Implemented organizational logging and monitoring using AWS CloudTrail, Config, and CloudWatch to ensure visibility and compliance across all accounts.",
         "Created terraform provisioning process for various team's AWS workloads that automated the GitLab integrated CICD pipelines to deploy and manage resources in a consistent and repeatable manner.",
         "Implemented AI to assist in the generation of terraform code and documentation to speed up the delivery of infrastructure as code solutions.",
-        "Deployed Fortigate firewalls in AWS using terraform for the organization's secure network architecture and SDWAN initiative."
+        "Deployed Fortigate firewalls in AWS using terraform for the organization's secure network architecture and SDWAN initiative.",
+        "Technical support for deployed EKS cluster issues and workloads.",
+        "Implemented AWS Backup and DR strategies for critical workloads in the AWS environment."
       ]
     },
     {
