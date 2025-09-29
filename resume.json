@@ -4,8 +4,8 @@
   },
   "basics": {
     "name": "Zachary Loeber",
-    "label": "Infrastructure and Systems Engineer",
-    "image": "https://avatars.githubusercontent.com/u/4702624",
+    "label": "Infrastructure Automation Engineer",
+    "image": "https://avatars.githubusercontent.com/u/4702624?v=4",
     "email": "zloeber@gmail.com",
     "phone": "630.730.1764",
     "url": "https://blog.zacharyloeber.com",
@@ -38,13 +38,33 @@
       "name": "SPR",
       "position": "Principal Cloud Consultant, Delivery Team",
       "startDate": "2018-02-01",
-      "summary": "Cloud consultant responsible for architecting, automating, and supporting cloud infrastructure and DevOps solutions for clients.",
+      "summary": "Cloud consultant architect responsible for automating and supporting cloud infrastructure and DevOps solutions for clients.",
       "highlights": [
         "Act as a technical lead for the delivery team.",
-        "Thought leader for the team on cloud infrastructure and DevOps topics.",
-        "Architect, automate, and support cloud infrastructure and DevOps solutions for clients.",
-        "Provide in depth technical interviews for hundreds of potential new hires.",
-        "Authored dozens of blogs for the ogranization."
+        "Thought leader for the team on cloud infrastructure, DevOps, and automation topics.",
+        "Architect, automate, and support business critical solutions for clients.",
+        "Provide in depth technical candidate interviews for hundreds of potential new hires.",
+        "Author of numerous blogs across a wide range of technologies for the organization."
+      ]
+    },
+    {
+      "name": "SPR (Current Client)",
+      "position": "Global Cloud and DevOps Engineer",
+      "startDate": "2025-03-01",
+      "endDate": "2025-09-30",
+      "summary": "AWS Organizations, Control Tower, and Landing Zone architect and engineer. Design and implement a multi-account AWS environment for a global organization with over 20 accounts. Implement guardrails, security baselines, and account structure to support the organization's cloud strategy.",
+      "highlights": [
+        "Designed and implemented a multi-account AWS environment using AWS Control Tower and Organizations to support the organization's global cloud strategy.",
+        "Implemented guardrails and security baselines to ensure compliance with industry standards and best practices.",
+        "Automated account provisioning and management using Infrastructure as Code (IaC) principles.",
+        "Collaborated with cross-functional teams to ensure seamless integration of cloud services with existing on-premises infrastructure.",
+        "Provided training and documentation to internal teams on AWS best practices and governance.",
+        "Authored terraform modules and shared GitLab CICD component libraries to support the organization's cloud infrastructure as code strategy.",
+        "Created GitOps approach for managing AWS account access and permissions using AWS SSO and IAM Identity Center.",
+        "Implemented organizational logging and monitoring using AWS CloudTrail, Config, and CloudWatch to ensure visibility and compliance across all accounts.",
+        "Created terraform provisioning process for various team's AWS workloads that automated the GitLab integrated CICD pipelines to deploy and manage resources in a consistent and repeatable manner.",
+        "Implemented AI to assist in the generation of terraform code and documentation to speed up the delivery of infrastructure as code solutions.",
+        "Deployed Fortigate firewalls in AWS using terraform for the organization's secure network architecture and SDWAN initiative."
       ]
     },
     {
