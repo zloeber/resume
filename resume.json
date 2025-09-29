@@ -457,7 +457,7 @@
       ]
     },
     {
-      "name": "Web & API Development",
+      "name": "Development",
       "level": "Intermediate",
       "keywords": [
         "HTML",
@@ -469,7 +469,7 @@
         "FastAPI",
         "OpenAPI",
         "Vite",
-        "OpenAPI"
+        "AI"
       ]
     },
     {
@@ -494,7 +494,7 @@
   "interests": [
     {
       "name": "AI",
-      "keywords": ["CoPilot", "ChatGPT"]
+      "keywords": ["CoPilot", "ChatGPT", "Ollama", "CrewAI", "Agentic AI"]
     },
     {
       "name": "Home Automation",
@@ -516,6 +516,16 @@
     }
   ],
   "projects": [
+    {
+      "name": "Prepper Guides",
+      "description": "Planning for disasters based on your location and threat profile.",
+      "url": "https://www.prepper-guides.com"
+    },
+    {
+      "name": "Metagit",
+      "description": "A situational awareness for your git projects. Metagit makes sprawling multi-repo projects feel like monorepos and provides concise information on the software stacks, generated artifacts, dependencies, and more.",
+      "url": "https://github.com/metagit-ai/metagit-cli"
+    },
     {
       "name": "Public PowerShell Collection",
       "description": "A large collection of PowerShell scripts and modules for public use. This collection is used by quite a few people it seems.",
