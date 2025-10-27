@@ -51,23 +51,25 @@
       "name": "SPR (Current Client)",
       "position": "Global Cloud and DevOps Engineer",
       "startDate": "2025-03-01",
-      "endDate": "2025-09-30",
+      "endDate": "2025-10-30",
       "summary": "AWS Organizations, Control Tower, and Landing Zone architect and engineer. Design and implement a multi-account AWS environment for a global organization with over 20 accounts. Implement guardrails, security baselines, and account structure to support the organization's cloud strategy.",
       "highlights": [
         "Designed and implemented a multi-account AWS environment using AWS Control Tower and Organizations to support the organization's global cloud strategy.",
         "Implemented guardrails and security baselines to ensure compliance with industry standards and best practices.",
         "Automated account provisioning and management using Infrastructure as Code (IaC) principles.",
         "Collaborated with cross-functional teams to ensure seamless integration of cloud services with existing on-premises infrastructure.",
+        "Built SES email sending solution for the organization to support various business units' email needs.",
         "Provided training and documentation to internal teams on AWS best practices and governance.",
         "Authored terraform modules and shared GitLab CICD component libraries to support the organization's cloud infrastructure as code strategy.",
-        "Created GitOps approach for managing AWS account access and permissions using AWS SSO and IAM Identity Center.",
+        "Developed GitOps approach for managing AWS account access and permissions using AWS SSO and IAM Identity Center.",
         "Developed several Python scripts to generate AWS documentation for internal teams.",
         "Implemented organizational logging and monitoring using AWS CloudTrail, Config, and CloudWatch to ensure visibility and compliance across all accounts.",
         "Created terraform provisioning process for various team's AWS workloads that automated the GitLab integrated CICD pipelines to deploy and manage resources in a consistent and repeatable manner.",
-        "Implemented AI to assist in the generation of terraform code and documentation to speed up the delivery of infrastructure as code solutions.",
-        "Deployed Fortigate firewalls in AWS using terraform for the organization's secure network architecture and SDWAN initiative.",
+        "Employed AI to assist in the generation of terraform code and documentation to speed up the delivery of infrastructure as code solutions.",
+        "Deployed FortiGate firewalls in AWS using terraform for the organization's secure network architecture and SDWAN initiative.",
         "Technical support for deployed EKS cluster issues and workloads.",
-        "Implemented AWS Backup and DR strategies for critical workloads in the AWS environment."
+        "Implemented AWS Backup and DR strategies for critical workloads in the AWS environment.",
+        "Commvault backup implementation and deployment in AWS using terraform to support the organization's data protection strategy for critical workloads."
       ]
     },
     {
@@ -501,12 +503,8 @@
       "keywords": ["Home Assistant", "k3s", "Frigate"]
     },
     {
-      "name": "Gaming",
-      "keywords": ["PC", "Steam", "Rogue-likes"]
-    },
-    {
-      "name": "Skill based toys",
-      "keywords": ["yo-yo", "juggling", "puzzles"]
+      "name": "Mischellaneous",
+      "keywords": ["PC Gaming", "Rogue-likes", "Blogging", "Yo-yo", "Tabletop Gaming"]
     }
   ],
   "references": [
@@ -522,6 +520,11 @@
       "url": "https://www.prepper-guides.com"
     },
     {
+      "name": "Terraform-Ingest",
+      "description": "A terraform module ingestion CLI tool and MCP server that can read terraform code and supercharge your infrastructure as code efforts with AI assistance.",
+      "url": "https://github.com/zloeber/terraform-ingest"
+    },
+    {
       "name": "Metagit",
       "description": "A situational awareness for your git projects. Metagit makes sprawling multi-repo projects feel like monorepos and provides concise information on the software stacks, generated artifacts, dependencies, and more.",
       "url": "https://github.com/metagit-ai/metagit-cli"
@@ -535,11 +538,6 @@
       "name": "PSAD Module",
       "description": "PowerShell AD Module for managing Active Directory via ADSI",
       "url": "https://github.com/zloeber/PSAD"
-    },
-    {
-      "name": "Taskfiles",
-      "description": "Taskfiles for various IT projects and categories.",
-      "url": "https://github.com/zloeber/taskfiles"
     }
   ]
 }
