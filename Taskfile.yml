@@ -78,3 +78,14 @@ tasks:
     desc: Update GitHub Actions in workflows
     cmds:
       - npx actions-up -y
+
+  build:resume:
+    desc: Generate resume.md from resume.json
+    cmds:
+      - python scripts/generate_resume.py --input resume.json --output resume.md
+      - cp resume.md index.md
+
+  deploy:pages:
+    desc: Deploy to GitHub Pages (manual trigger)
+    cmds:
+      - gh workflow run pages.yml
