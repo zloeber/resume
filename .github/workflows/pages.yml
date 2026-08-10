@@ -22,26 +22,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          python-version: '3.13'
-
-      - name: Install dependencies
-        run: |
-          pip install pyyaml requests
-
-      - name: Generate resume.md from resume.json
-        run: |
-          python scripts/generate_resume.py --input resume.json --output resume.md
+          ruby-version: '3.3'
+          bundler-cache: true
 
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v4
+
+      - name: Build with Jekyll
+        run: |
+          bundle exec jekyll build --destination "_site"
+        env:
+          JEKYLL_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
   deploy:
     environment:
