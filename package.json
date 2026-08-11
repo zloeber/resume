@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "JSON Resume for Zachary Loeber",
+  "scripts": {
+    "render": "npx resume-cli export index.html --theme elegant --format html --resume resume.json",
+    "render:pdf": "npx resume-cli export resume.pdf --theme elegant --format pdf --resume resume.json",
+    "serve": "npx resume-cli serve --theme elegant --resume resume.json"
+  },
+  "devDependencies": {
+    "resume-cli": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
