@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+# No Jekyll theme needed - resume is generated via jsonresume-theme-even
+# This file exists to prevent Jekyll processing (GitHub Pages requires it)
 title: Zachary Loeber - Infrastructure Automation Engineer
 description: Cloud Architect, DevOps Expert, Infrastructure Engineer, and AI Specialist

@@ -85,6 +85,21 @@ tasks:
       - python scripts/generate_resume.py --input resume.json --output resume.md
       - cp resume.md index.md
 
+  build:resume:json:
+    desc: Generate HTML resume from JSON using jsonresume (elegant theme)
+    cmds:
+      - npm run render
+
+  # build:resume:pdf:
+  #   desc: Generate PDF resume from JSON using jsonresume (requires puppeteer/Chrome)
+  #   cmds:
+  #     - npm run render:pdf
+
+  serve:resume:
+    desc: Serve JSON resume locally with live reload
+    cmds:
+      - npm run serve
+
   deploy:pages:
     desc: Deploy to GitHub Pages (manual trigger)
     cmds:
