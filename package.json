@@ -11,6 +11,6 @@
     "resume-cli": "^3.7.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=24"
   }
 }
